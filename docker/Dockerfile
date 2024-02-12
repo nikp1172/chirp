@@ -1,5 +1,5 @@
 
-FROM debian:stretch
+FROM debian:bullseye
 RUN apt-get update
 RUN apt-get install -y python3 python-virtualenv mongodb rabbitmq-server \
                        redis-server supervisor strace
